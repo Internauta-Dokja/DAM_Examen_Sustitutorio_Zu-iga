@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Fondo principal (Gradiente Superior e Inferior) -->
+    <color name="colorPrimaryDark">#0D2C56</color> <!-- Azul oscuro superior -->
+    <color name="colorPrimaryLight">#6A8EA9</color> <!-- Azul claro inferior -->
+    <color name="colorBackgroundMedium">#3A537A</color> <!-- Azul medio del fondo -->
+
+    <!-- Colores de texto -->
+    <color name="colorTextPrimary">#FFFFFF</color> <!-- Blanco puro -->
+    <color name="colorTextHint">#B0BEC5</color> <!-- Gris claro para hint -->
+    <color name="colorTextSecondary">#263238</color> <!-- Gris oscuro (texto ingresado) -->
+
+    <!-- Botones -->
+    <color name="colorButtonInactive">#D8D8D8</color> <!-- Botón inactivo -->
+    <color name="colorButtonActive">#4A90E2</color> <!-- Botón activo (Ingresar) -->
+    <color name="colorButtonText">#FFFFFF</color> <!-- Texto del botón principal -->
+
+    <!-- Dialogos y Selectores -->
+    <color name="colorSelectorActive">#4A90E2</color> <!-- RadioButton seleccionado -->
+    <color name="colorSelectorInactive">#212121</color> <!-- RadioButton no seleccionado -->
+    <color name="colorDialogText">#4A90E2</color> <!-- Botón "Aceptar" -->
+    <color name="colorDialogCancel">#B0BEC5</color> <!-- Botón "Cancelar" -->
+
+    <!-- Botones secundarios -->
+    <color name="colorLink">#4A90E2</color> <!-- Texto del botón "Generar tu clave de internet" -->
+
+    <!-- Íconos -->
+    <color name="colorIcon">#FFFFFF</color> <!-- Color de los íconos inferiores -->
+
+    <shape xmlns:android="http://schemas.android.com/apk/res/android">
+        <gradient
+            android:type="linear"
+            android:startColor="#0D2C56"
+            android:endColor="#6A8EA9"
+            android:angle="270" />
+    </shape>
+
+
+
+</resources>
